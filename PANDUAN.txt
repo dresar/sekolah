@@ -1,0 +1,87 @@
+CARA INPUT DATABASE
+==================
+application---> config--->database.php
+
+
+Cara membuat 3 menu di tengah (Pendidikan Karakter, CBT & E-Learning)
+====================================================================
+1. Blog--> Service—> Isi kegiatan & deskripsi
+2. Blog—>Halaman—> Tambah Judul & isi Deskripsi
+3. Tampilan—>Menu—>Halaman—>Ceklis Judul yang kita buat tadi, kemudian simpan.
+4. Tampilan—>Kelola Menu—>Klik Judul halaman yang tadi kita buat, copy linknya dan Pastekan pada
+5. Blog—> Service—> Pastekan pada Menu yang kita buat tadi pada menu URL.
+6. Kemudian hapus menu tadi pada Tampilan Menu--> Menu --> Kelola Menu
+7. FINISH
+
+CARA MEMBUAT MENU PADA TAMPILAN WEB
+==================================
+1. Tampilan Menu--> Menu --> Customs Links
+2. FINISH
+
+CARA MEMBUAT SUB MENU PADA TAMPILAN WEB
+=======================================
+1. Blog--> Halaman-->Buat halaman baru
+2. Tampilan--> Menu-->Cekliks dan klik Simpan pada halaman yang baru dibuat tadi.
+3. Di Struktur Menu, drag & drop halaman yan gkita buat tadi ke bawah menu yang kita jadikan menu utama.
+4. FINISH
+
+CARA MENGISI CONTENT SUB MENU
+=============================
+1. Tulisan---> Tambah baru
+2. Isi teks yang mau ditampilkan di sub menu dan upload gambar
+3. Centang kategori mana yang akan menampilkan teks yang kita buat tadi.
+
+
+EDIT TAMPILAN LOGIN ADMIN
+=========================
+public_html/ppdb/views/users/index.php
+
+CARA ISI DATA GURU DI MENU DIREKTORI
+=====================================
+1. GTK--->Import GTK--> Copy file data guru dengan format excel yang sudah ditentukan-->Klik Import
+2. GTK--->Semua GTK---> Isi biodata Guru masing-masing
+
+CARA UBAH ISI DATA GTK
+======================
+public_html/ppdb/views/employees/profile.php
+
+BUAT LOGO IKLAN DI FOOTER
+=========================
+Plugins--->iklan
+
+EDIT TAMPILAN ABOUT di MENU ADMIN
+================================
+public_html/ppdb/views/backend/index.php
+
+CARA UPLOAD FOTO KEPALA SEKOLAH
+===============================
+Blog--->Headmaster
+
+FOOTER
+==========
+public_html/ppdb/views/users/index.php
+
+EDIT FORM BIODATA PPDB
+======================
+public_html/ppdb/views/students/profile.php
+
+EDIT FOTO-FOTO SISWA BARU DI BAGIAN FOOTER
+===========================================
+1. Media Library--->ppdb_info
+
+KUMPULAN FOTO
+=================
+1. Assets--->Academics-->img-->ppdb_info
+
+UNTUK EDIT VIDEO DI TENGAH WEBSITE/GANTI TULISAN PPDB 2019 TELAH DIBUKA/JUMLAH GURU/
+====================================
+public_html/sekolah/views/themes/academics/home.php
+
+
+EDIT FOTO KEPALA SEKOLAH
+=======================
+Pengaturan--->Profil Sekolah
+
+
+
+
